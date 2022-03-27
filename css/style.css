@@ -109,6 +109,10 @@ body {
         font-size: 14px;
     }
 
+    ::placeholder {
+        font-size: 14px;
+    }
+
     .todos {
         width: 60%;
     }
