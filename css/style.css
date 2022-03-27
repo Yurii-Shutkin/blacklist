@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-image: url(../images/img1.jpeg);
     font-family: 'Raleway', sans-serif;
