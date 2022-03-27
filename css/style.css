@@ -74,6 +74,10 @@ body {
 
 @media (max-width: 772px) {
 
+    .container {
+        max-width: 772px;
+    }
+
     .title {
         color: aliceblue;
         font-size: 25px;
