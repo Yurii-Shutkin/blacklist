@@ -76,11 +76,7 @@ body {
     color: #fff;
 }
 
-@media (max-width: 772px) {
-
-    .container {
-        max-width: 772px;
-    }
+@media (max-width: 960px) {
 
     .title {
         color: aliceblue;
@@ -104,3 +100,25 @@ body {
         font-size: 15px;
     }
 }
+
+@media (max-width: 540px) {
+    body {
+        font-size: 15px;
+    }
+
+    .taskHeading {
+        font-size: 18px;
+    }
+
+    .taskDescription {
+        font-size: 14px;
+    }
+
+    .checkbox-value {
+        font-size: 14px;
+    }
+
+    .delete-item-btn {
+        font-size: 14px;
+    }
+} 
