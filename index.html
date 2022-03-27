@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/demo.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<main>
+    <h1 class="title text-center mt-5 mb-5">Блокнот обидочек Дарьи экс-кассира  <span>👿</span></h1>
+    <div class="container">
+        <!-- <div class="row"> -->
+            <!-- <div class="col-6"> -->
+                <form id="todoForm">
+                    <div class="mb-3">
+                        <label class="form-label">Имя</label>
+                        <input type="text" name="title" class="form-control" placeholder="Кто этот мерзавец ?" required>
+                    </div>
+                    <div class="mb-3">
+                        <label  class="form-label">Какое зло совершил(а) ?</label>
+                        <textarea name="description" class="form-control" placeholder="Жаловаться тут..." cols="30" rows="3" required></textarea>
+                    </div>
+                    <div class="btn-wrap">
+                        <div>
+                            <input type="submit" class="btn btn-submit" value="Кинуть обидку !">
+                        </div>
+                        <button type="button" class="btn remove-all">Простить всех <span>😔</span></button>
+                    </div>
+                </form>
+            <!-- </div> -->
+
+
+            <!-- <div class="col-9"> -->
+                <div class="todos" id="todoItems">
+                    
+                </div>
+            <!-- </div> -->
+        <!-- </div> -->
+    </div>
+</main>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>

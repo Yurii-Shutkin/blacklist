@@ -1,0 +1,94 @@
+body {
+    background-image: url(../images/img1.jpeg);
+    font-family: 'Raleway', sans-serif;
+}
+
+.title {
+    color: aliceblue;
+}
+
+#todoForm {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 60px;
+    color: aliceblue;
+}
+
+.todos {
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+}
+
+.taskWrapper {
+    display: block;
+    margin: 0 auto;
+    background-color: #1d1d1d;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 14px 1px rgba(0, 0, 0, .2);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.taskHeading {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.taskDescription {
+    font-size: 16px;
+}
+
+.taskCheckbox {
+    margin-right: 10px;
+}
+
+.btn-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-submit {
+    background-color: blueviolet;
+    color: #fff;
+}
+
+.delete-item-btn {
+    background-color: rgb(34, 185, 46);
+    border-color: rgb(34, 185, 46);
+    color: #fff;
+}
+
+.remove-all {
+    background-color: rgb(34, 185, 46);
+    border-color: rgb(34, 185, 46);
+    color: #fff;
+}
+
+@media (max-width: 772px) {
+
+    .title {
+        color: aliceblue;
+        font-size: 25px;
+    }
+
+    .btn-wrap {
+        display: block;
+    }
+
+    .btn-submit {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .remove-all {
+        width: 100%;
+    }
+
+    .delete-item-btn {
+        font-size: 15px;
+    }
+}
