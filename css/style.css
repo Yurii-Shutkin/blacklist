@@ -101,7 +101,7 @@ body {
     }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 576px) {
     body {
         font-size: 15px;
     }
