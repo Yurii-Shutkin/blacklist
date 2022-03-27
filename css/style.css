@@ -4,6 +4,9 @@
 
 body {
     background-image: url(../images/img1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -115,10 +118,47 @@ body {
     }
 
     .checkbox-value {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .delete-item-btn {
-        font-size: 14px;
+        font-size: 12px;
     }
 } 
+
+@media (max-width: 320px) {
+    body {
+        font-size: 12px;
+    }
+
+    ::placeholder {
+        font-size: 12px;
+    }
+
+    .btn-submit {
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+
+    .remove-all {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .taskHeading {
+        font-size: 14px;
+    }
+
+    .taskDescription {
+        font-size: 12px;
+    }
+
+    .checkbox-value {
+        font-size: 10px;
+    }
+
+    .delete-item-btn {
+        font-size: 7px;
+    }
+}
