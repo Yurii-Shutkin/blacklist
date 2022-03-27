@@ -109,6 +109,10 @@ body {
         font-size: 15px;
     }
 
+    .todos {
+        width: 60%;
+    }
+
     .taskHeading {
         font-size: 18px;
     }
